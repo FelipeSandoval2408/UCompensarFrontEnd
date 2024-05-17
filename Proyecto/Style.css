@@ -1,0 +1,64 @@
+/*Estilo de la cabecera*/
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 20px;
+    background-color: crimson;
+}
+
+/*Estilos Header*/
+header {
+    background-color: cadetblue;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+/*Estilos para las secciones*/
+section{
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+.MiBoton{
+    background-color: rgb(211, 83, 10);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-style: italic;
+    align-items: center;
+}
+.myButton {
+    background-color: rgb(57, 18, 88);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+/*Estilo footer*/
+footer{
+    text-align: center;
+    background-color: rgb(3, 3, 3);
+    color: blanchedalmond;   
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
