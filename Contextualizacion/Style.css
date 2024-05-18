@@ -1,0 +1,90 @@
+html{
+  background-color: #3f3d3d;
+}
+.my-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.my-footer p {
+  margin-bottom: 5px;
+}
+
+.my-footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.my-footer li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.my-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.jumbotron {
+  background-color: #f4f5f7;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #fafafa;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #fafafa;
+  font-weight: bold;
+}
+
+.jumbotron .lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #fafafa;
+  font-weight: bold;
+}
+
+.jumbotron hr {
+  border-top-color: #dee2e6;
+  opacity: 0.2;
+  color: #fafafa;
+  font-weight: bold;
+}
+
+.jumbotron .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.jumbotron .btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+.jumbotron-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
